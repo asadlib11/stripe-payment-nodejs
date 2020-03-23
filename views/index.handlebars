@@ -1,0 +1,30 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                Zlatan Ibrahimovic Story
+            </h1>
+            <p class="lead">Learn about the life of a champion</p>
+            <form action="/charge" method="POST">
+                <script
+                    src="https://checkout.stripe.com/checkout.js"
+                    class="stripe-button"
+                    data-key="youDataKeyHere"
+                    data-amount="2500"
+                    data-name="I am Zlatan Ebook"
+                    data-description="Ebook written by David Lagercrant"
+                    data-image="/img/marketplace.png"
+                >
+                </script>
+                <script>
+                    //hide default stripe button
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                    <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase For $25</button>
+                </script>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/book.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+</section>
