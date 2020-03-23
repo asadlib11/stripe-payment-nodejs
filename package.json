@@ -1,0 +1,22 @@
+{
+  "name": "stripe-payment-nodejs",
+  "version": "1.0.0",
+  "description": "an example of setting up payments with node.js and stripe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "stripe",
+    "payment",
+    "javascript"
+  ],
+  "author": "Asad Ali Baloch",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "stripe": "^8.33.0"
+  }
+}
